@@ -1,5 +1,7 @@
 # Stop Drop N Roll
 
+![Banner](https://cdn.modrinth.com/data/vfeYNwPB/images/999d23aeba531585c9b919a4fb8ef70376725282.png)
+
 [![Discord](https://img.shields.io/discord/810752039470235688?style=for-the-badge&logo=discord&label=%20&labelColor=grey&color=green)](https://discord.imjustdoom.com)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/ImJustDoom?style=for-the-badge&logo=twitter&label=Follow!&color=gray)](https://twitter.com/ImJustDoom)
 [![Static Badge](https://img.shields.io/badge/Backers-%20?style=for-the-badge&logo=ko-fi&color=gray)](https://ko-fi.com/justdoom)
