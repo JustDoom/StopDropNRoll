@@ -1,5 +1,6 @@
-package com.imjustdoom.stopdropnroll;
+package com.imjustdoom.stopdropnroll.fabric;
 
+import com.imjustdoom.stopdropnroll.StopDropNRoll;
 import net.fabricmc.api.ModInitializer;
 
 public class StopDropNRollFabric implements ModInitializer {
