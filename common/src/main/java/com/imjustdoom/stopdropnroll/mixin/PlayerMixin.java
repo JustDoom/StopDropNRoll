@@ -30,7 +30,7 @@ public abstract class PlayerMixin extends Entity implements StopDropNRollPlayer 
 
         if (level().isClientSide) return;
 
-        if (isCrouching() && !isLastCrouching() && isOnFire() && Math.random() <= Config.CHANCE) {
+        if (isCrouching() && !isLastCrouching() && isOnFire() && Math.random() < Config.CHANCE) {
             setRemainingFireTicks((int) (getRemainingFireTicks() * (1f - Config.FIRE_TICK_REMOVE_PERCENTAGE)));
         }
 
