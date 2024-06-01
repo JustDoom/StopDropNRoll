@@ -28,6 +28,19 @@ Stop Drop N Roll adds the ability to crouch and extinguish yourself. By default,
 
 To use this mod you just need to be on fire, and spam crouch until your no longer on fire!
 
+### Configuration
+
+There are currently two options in the config file which can be found in `<minecraft directory>/config/stop-drop-n-roll.properties`.
+
+`chance` - The chance that a single crouch will succeed in reducing the time remaining  
+`fire-tick-remove-percentage` - The amount that will be removed from the remaining fire ticks  
+Both of these options are from 0-1. 0 is 0%, 1 is 100% and 0.32 would be 32%
+
+## Contributors
+
+- JustDoom - Developer
+- Am Noah - Gave me the idea for this mod
+
 ## Support
 
 Support can be provided on my [discord server,](https://discord.gg/ydGK5jYV6t) or you can report any bugs on the GitHub repository [here](https://github.com/JustDoom/StopDropNRoll/issues)
