@@ -18,7 +18,6 @@ Stop Drop N Roll adds the ability to crouch and extinguish yourself. By default,
 - Modify the chance to extinguish the flames
 - Modify how long each success removes from the remaining flame time
 
-Save yourself
 ![Safe at last](https://i.imgur.com/n9tYEol.gif)
 
 ### Planned
