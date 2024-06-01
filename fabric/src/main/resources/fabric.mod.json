@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "stopdropnroll",
+  "version": "${version}",
+  "name": "Stop Drop N Roll",
+  "description": "When you're on fire, stop, drop, and roll",
+  "authors": [
+    "JustDoom"
+  ],
+  "contact": {
+    "homepage": "https://imjustdoom.com",
+    "sources": "https://github.com/JustDoom/StopDropNRoll"
+  },
+  "license": "MIT",
+  "icon": "assets/stopdropnroll/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.imjustdoom.stopdropnroll.StopDropNRollFabric"
+    ]
+  },
+  "mixins": [
+    "stopdropnroll-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "architectury": ">=9.1.12"
+  }
+}
