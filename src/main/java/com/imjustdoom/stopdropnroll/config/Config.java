@@ -1,6 +1,6 @@
 package com.imjustdoom.stopdropnroll.config;
 
-import dev.architectury.injectables.annotations.ExpectPlatform;
+import net.minecraftforge.fml.loading.FMLPaths;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,7 +19,7 @@ public class Config {
 
     public static void init() throws IOException {
         PROPERTIES = new Properties();
-        FILE_PATH = Path.of(getConfigDirectory() + "/stop-drop-n-roll.properties");
+        FILE_PATH = Path.of(FMLPaths.CONFIGDIR.get() + "/stop-drop-n-roll.properties");
         if (!FILE_PATH.toFile().exists()) {
             new File(FILE_PATH.toString()).createNewFile();
         }
@@ -61,15 +61,10 @@ public class Config {
     public static void save() throws IOException {
         PROPERTIES.store(new FileWriter(FILE_PATH.toFile()),
                 "Config for StopDropNRoll\n" +
-                "'chance' is on a scale of 0-1. 0 is 0%, 1 is 100% and 0.32 is 32%\n" +
-                "'chance' configures the chance for the remaining fire ticks to go down when you \"stop drop n roll\"\n" +
-                "'fire-tick-remove-percentage' is on a scale of 0-1. 0 is 0%, 1 is 100% and 0.32 is 32%\n" +
-                "'fire-tick-remove-percentage' configures how much of the fire ticks are removed. If it's set to 0.1,\n" +
-                "the remaining time will go down by 10%.\n");
-    }
-
-    @ExpectPlatform
-    public static Path getConfigDirectory() {
-        throw new AssertionError();
+                        "'chance' is on a scale of 0-1. 0 is 0%, 1 is 100% and 0.32 is 32%\n" +
+                        "'chance' configures the chance for the remaining fire ticks to go down when you \"stop drop n roll\"\n" +
+                        "'fire-tick-remove-percentage' is on a scale of 0-1. 0 is 0%, 1 is 100% and 0.32 is 32%\n" +
+                        "'fire-tick-remove-percentage' configures how much of the fire ticks are removed. If it's set to 0.1,\n" +
+                        "the remaining time will go down by 10%.\n");
     }
 }

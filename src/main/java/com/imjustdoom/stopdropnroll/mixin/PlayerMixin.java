@@ -16,7 +16,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(Player.class)
 public abstract class PlayerMixin extends Entity implements StopDropNRollPlayer {
 
-    @Shadow public abstract void setRemainingFireTicks(int ticks);
+    @Shadow
+    public abstract void setRemainingFireTicks(int ticks);
 
     @Unique
     private boolean isLastCrouching;
