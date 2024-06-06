@@ -1,5 +1,9 @@
 # Stop Drop N Roll
 
+**Currently, Architectury doesn't seem to properly support 1.20.6 Forge and fixing it is not a priority. So I have replaced Forge with NeoForge with Architectury and am going to maintain a Forge branch separately.**
+
+Why? I don't know if I like how NeoForge came to be so I wasn't sure if I should use it. I decided to give it a try since Architectury doesn't work with Forge well at the moment but I also refuse to drop Forge.
+
 ![Banner](https://cdn.modrinth.com/data/vfeYNwPB/images/999d23aeba531585c9b919a4fb8ef70376725282.png)
 
 [![Discord](https://img.shields.io/discord/810752039470235688?style=for-the-badge&logo=discord&label=%20&labelColor=grey&color=green)](https://discord.imjustdoom.com)
