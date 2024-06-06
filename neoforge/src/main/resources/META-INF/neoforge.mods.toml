@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[41,49]"
+loaderVersion = "[2,)"
 issueTrackerURL = "https://github.com/JustDoom/StopDropNRoll/issues"
 license = "MIT"
 
@@ -14,15 +14,18 @@ When you're on fire, stop, drop, and roll
 #logoFile = ""
 
 [[dependencies.stopdropnroll]]
-modId = "forge"
-mandatory = true
-versionRange = "[41,49]"
+modId = "neoforge"
+type = "required"
+versionRange = "[1.20.6,)"
 ordering = "NONE"
-side = "SERVER"
+side = "BOTH"
 
 [[dependencies.stopdropnroll]]
 modId = "minecraft"
-mandatory = true
-versionRange = "[1.19,1.20.4]"
+type = "required"
+versionRange = "[1.20.6,)"
 ordering = "NONE"
 side = "BOTH"
+
+[[mixins]]
+config = "stopdropnroll-common.mixins.json"

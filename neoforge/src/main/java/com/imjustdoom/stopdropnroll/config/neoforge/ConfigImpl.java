@@ -1,6 +1,6 @@
-package com.imjustdoom.stopdropnroll.config.forge;
+package com.imjustdoom.stopdropnroll.config.neoforge;
 
-import net.minecraftforge.fml.loading.FMLPaths;
+import net.neoforged.fml.loading.FMLPaths;
 
 import java.nio.file.Path;
 
