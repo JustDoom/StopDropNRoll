@@ -188,7 +188,6 @@ tasks.named('jar', Jar).configure {
 
 mixin {
     // MixinGradle Settings
-    add sourceSets.main, 'mixins.stopdropnroll.refmap.json'
     config 'mixins.stopdropnroll.json'
 }
 
