@@ -1,0 +1,11 @@
+name: ${name}
+main: com.imjustdoom.stopdropnroll.Main
+version: ${version}
+api-version: '1.21.4'
+description: Plugin version of Doom's Stop Drop N Roll
+author: JustDoom
+website: https://imjustdoom.com
+permissions:
+  stopdropnroll.commands:
+    default: op
+    description: Command for plugin

@@ -1,0 +1,4 @@
+# The chance that each crouch will decrease the remaining fire ticks. 0 is 0% and 1 is 100%. 0.5 for 50% chance
+chance: 0.5
+# The percentage of the remaining fire ticks that will be removed when a crouch is successful
+fire-tick-decrease-percentage: 0.2
